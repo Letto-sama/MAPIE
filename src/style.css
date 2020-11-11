@@ -1,0 +1,82 @@
+.boton_contacto {
+    width: 130px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(198deg,#F0B92C, #F4DE17);
+}
+
+.boton_llamada {
+    width: 200px;
+    border-radius: 25px;
+    color: white;
+    border: none;
+    cursor: none;
+    transition: all 0.2s ease-in 0s;
+    outline: none;
+    height: 47px;
+    font-size: 16px;
+    font-weight: 600;
+    background: linear-gradient(198deg,#F0B92C, #F4DE17);
+}
+
+.SECTION_4 {
+    background: #F0B92C;
+}
+
+.ONDAS {
+    z-index: 1;
+    position: absolute;
+    top: 1250px;
+    width: 100%;
+} 
+.color_01 {
+    color: #F4DE17;
+}
+.color_02 {
+    color: #F0B92C;
+}
+/*----------------------SWIPERJS--------------------------*/
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+@media (max-width: 760px) {
+    .swiper-button-next {
+        right: 20px;
+        transform: rotate(90deg);
+    }
+
+    .swiper-button-prev {
+        left: 20px;
+        transform: rotate(90deg);
+    }
+}
